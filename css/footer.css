@@ -1,0 +1,13 @@
+/*底部开始 */
+footer{
+	max-width: 640px;
+	width: 100%;
+	height:1.4rem;
+	position: fixed;
+	left: 50%
+	transform:translateX(-50%);
+	bottom: 0;
+	display:flex;
+	background: #fff;
+	box-shadow: ;
+}
