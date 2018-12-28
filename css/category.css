@@ -48,7 +48,7 @@
 }
 
 
-.middle .aside::--webkit-scrollbar{
+.middle .aside::-webkit-scrollbar{
 	width: 0;
 	height:0;
 }
@@ -75,7 +75,7 @@
 	padding-left: 2.37rem;
 }
 
-.middle .goods-list::--webkit-scrollbar{
+.middle .goods-list::-webkit-scrollbar{
 	width: 0;
 }
 
