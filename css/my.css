@@ -1,0 +1,256 @@
+.root{
+	max-width: 640px;
+	margin: 0 auto;
+	
+}
+/*头部开始*/body{
+	background: #f5f5f5;
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 2.36rem;
+	background:url(../img/toubu.png) no-repeat center center/100% auto #f37d0f;
+	padding-left: 0.48rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.header p{
+	font-size:0.33rem;
+	color: #fadbaf;
+	margin-left: 0.24rem;
+}
+.touxiang-box{
+	width:1.5rem;
+	height:1.5rem;
+	background: #f9b56e;
+	border-radius: 50%;
+}
+.touxiang-box a{
+	width:1.5rem;
+	height:1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.touxiang-box>a>img{
+	width: 100%;
+	height:100%;
+}
+/* 头部开始 */
+/* 我的订单开始 */
+.my-dingdan-box{
+	width: 100%;
+	height: 1.18rem;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	border-bottom: 0.03rem solid #dadada;
+}
+.my-dingdan-box .my-dingdan{
+	font-size: 0.38rem;
+	color: #161616;
+}
+.my-dingdan-box .all-dingdan{
+	font-size: 0.38rem;
+	color: #161616;
+	margin-right: 0.1rem;
+}
+/* 我的订单结束 */
+/* 收退货状态开始 */
+.state-box{
+	width: 100%;
+	height: 2.52rem;
+	background: #fff;
+	display: flex;
+
+}
+.state-box ul{
+	width:100%;
+	height: 100%;
+	padding: 0 0.8rem;
+	display: flex;
+	justify-content: space-between;
+}
+.state-box ul li{
+	width:0.98rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.state-box ul li .img-box{
+	width: 0.59rem;
+	height: 0.52rem;
+	display: flex;
+}
+.state-box ul li .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.state-box ul li p{
+	font-size: 0.31rem;
+	color:#232323;
+	margin: 0.33rem 0;
+} 
+/* 收退货状态结束 */
+/* 我的列表开始 */
+.my-list-box{
+	width: 100%;
+	height: 3.2rem;
+	background: #fff;
+	margin-top: 0.3rem;
+}
+.my-list-box-top{
+	width: 100%;
+	height: 1.585rem;
+	display: flex;
+}
+.my-list-box-top .left{
+	width: 1.68rem;
+	height: 100%;
+	font-size: 0.64rem;
+	color: #fcc02c;
+	text-align: center;
+	line-height:1.585rem;
+}
+.my-list-box-top .right{
+	width:calc(100% - 1.68rem);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.39rem;
+	color: 3202020;
+}
+.my-list-box .right .iconfont{
+	font-size: 0.42ren;
+	color: #787878;
+	margin-right: 0.42rem;
+}
+.my-list-box-bottom{
+	width: 100%;
+	height: 1.615rem;
+	display: flex;
+}
+.my-list-box-bottom .left{
+	width: 1.68rem;
+	height: 100%;
+	font-size: 0.64rem;
+	color: #51bce0;
+	text-align: center;
+	line-height:1.585rem;
+}
+.my-list-box-bottom .right{
+	width:calc(100% - 1.68rem);
+	height: 100%;
+	border-top: 0.03rem solid #D8D8D8;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.39rem;
+	color: 3202020;
+}
+.my-big-box .f-ma{
+	background: #fff;
+	margin-top: 0.3rem;
+}
+.my-big-box .f-ma .right .iconfont{
+	font-size: 0.42ren;
+	color: #787878;
+	margin-right: 0.42rem;
+}
+.my-big-box .f-ma .left{
+	width: 1.68rem;
+	height: 100%;
+	font-size: 0.64rem;
+	color: #51bce0;
+	text-align: center;
+	line-height:1.585rem;
+}
+.my-big-box .surve{
+	color: #FA6C5E;
+}
+.my-big-box .home{
+	color: #FF8B42;
+}
+.my-big-box .f-ma-con{
+	color: #FFB404;
+}
+.my-big-box .shezhi-con{
+	color: #828C99;
+}
+/* 我的列表结束 */
+.header{
+	width: 100vw;
+	height: 2.36rem;
+	background: #f37d0f;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.touxiang-box{
+	width:1.46rem;
+	height: 1.46rem;
+}
+.touxiang-box img{
+	width: 100%;
+	height: 100%;
+	/* margin-left: 0.48rem;
+	margin-right: 0.2rem; */
+}
+.header .text{
+	width: 2rem;
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color:white;
+	display: block;
+	margin-left: 0.9rem;
+}
+.dingdan-box{
+	width: 100vw;
+	height: 1.2rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.03rem solid #dedede;
+}
+.dingdan-box .text1{
+	font-size: 0.44rem;
+	color: black;
+	margin-top:0.2rem ;
+	margin-left: 0.52rem;
+}
+.dingdan-box .text2{
+	font-size: 0.44rem;
+	color: black;
+	margin-top:0.2rem ;
+	margin-left: 4.12rem;
+
+.dingdan-box.iconfont{
+	width: 0.24rem;
+	height: 0.38rem;
+	background: #8c8c8c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
