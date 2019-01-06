@@ -1,61 +1,47 @@
-/*底部开始 */
+/* 脚本开始 */
 .footer{
-	max-width: 640px;
-	width: 100%;
-	height:1.4rem;
+	width:100%;
+	height:1.56rem;
+	background:#ffffff;
 	position: fixed;
-	left: 0;
-	bottom: 0;
-	/* transform:translateX(-50%); */
-	display:flex;
-	background: #fff;
-	box-shadow:0 0.3rem 0.14rem 0.02rem rgba(0,0,0,0.2) ;
+	bottom:0;
+	left:0;
+	display: flex;
+	box-shadow: 0 0.1rem 0.01rem 0.2rem rgba(0,0,0,0.09);
 }
-
- .footer a{
+.shouye{
 	width: 25%;
-	height: 100%;
+	height:1.56rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+a{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
-
-.footer a .list1 .icon{
-	width:0.58rem;
-	height:0.58rem;
-	font-size: 0;
-	/* background: #232323; */
+.shouye a img{
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
 }
-
-.footer a .list1 .icon>img{
-	width:100%;
-	height:100%;
+.shouye a i{
+	font-size: 0.34rem;
+	margin-top: 0.2rem;
+	text-align: center;
 }
-
-
-
-.text{
-	height: 0.3rem;
-	font-size:0.3rem ;
-	/* margin-top: 0.1rem; */
-	color: #999;
-	padding-top: 0.16rem;
+.shouye a .text1{
+	color: #626262;
 }
-
-.text-active{
-	font-size: 0.3rem;
-	margin-top: 0.1rem;
-	color: #e79d56;
+.shouye a .text2{
+	color: orange;
 }
-.text-my{
-	font-size: 0.3rem;
-	margin-top: 0.1rem;
-	color:#cf7b33;
+.shouye a .text3{
+	color: orange;
 }
-.text-shouye{
-	font-size: 0.3rem;
-	margin-top: 0.1rem;
-	color:#9a9a9a ;
+.shouye a .text4{
+	color: orange;
 }
-
+/* 脚本结束 */
