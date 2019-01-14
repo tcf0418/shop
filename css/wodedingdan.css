@@ -41,13 +41,14 @@
 	margin-left: 0.48rem;
 }
 .quanbu-box div i{
+	display: inline-block;
 	width: 30.333rem;
 	height: 0.97rem;
 	text-align: center;
 	font-size: 0.37rem;
 	line-height:0.97rem ;
 }
-.quanbu-box div .xz{
+.quanbu-box div .active{
 	border-bottom: 0.02rem solid red;
 	color: orange;
 }
